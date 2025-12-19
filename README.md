@@ -36,7 +36,7 @@ suggestMove(x, y) returns a deterministic two‑segment path (horizontal→verti
 ### Project Structure
 src/
 
- └── cw/
+     cw/
  
       ├── Game.scala            // Core engine
       

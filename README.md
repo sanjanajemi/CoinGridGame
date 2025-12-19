@@ -1,7 +1,7 @@
-### CoinCrawler
+## CoinCrawler
 CoinCrawler is a deterministic grid‑navigation engine implemented in Scala 3, designed around constrained movement, collision handling, and region‑based coin aggregation. The system models a 10×10 board with walls, coins, and player state, and exposes a minimal API for movement, scoring, and path suggestion under strict structural rules.
 
-## Architecture & Framework
+### Architecture & Framework
 Language: Scala
 Paradigm: Functional / Imperative hybrid
 Runtime: JVM (Liberica / OpenJDK)
@@ -9,7 +9,7 @@ Testing: JUnit
 IDE: IntelliJ IDEA
 The project intentionally avoids external frameworks to keep the logic transparent, testable, and self‑contained.
 
-## Core Mechanics:
+### Core Mechanics:
 Movement
 - Commands: w (up), a (left), s (down), d (right)
 - Movement is atomic and validated against board boundaries and walls
@@ -33,7 +33,7 @@ suggestMove(x, y) returns a deterministic two‑segment path (horizontal→verti
 - Returns an empty string if no valid path exists
 - Does not mutate game state
 
-## Project Structure
+### Project Structure
 src/
  └── cw/
       ├── Game.scala            // Core engine
@@ -41,13 +41,13 @@ src/
       └── GameApp.scala         // Entry point
 
 
-## Guidelines for running the Project
+### Guidelines for running the Project
 - Open the project in IntelliJ with Scala  support
 - Scala-sdk should be added as a dependency as well.
 - Download Junit4 in the library and add in the dependency to run the tests.
 - Run GameApp.scala to play the game.
 
-## Testing
+### Testing
 The engine is validated through unit tests covering:
 - Boundary conditions
 - Wall collisions
@@ -56,7 +56,7 @@ The engine is validated through unit tests covering:
 - Path suggestion validity
 - Board initialization
 
-## Purpose of the framework
+### Purpose of the framework
 CoinCrawler serves as a compact demonstration of:
 - Grid‑based state management
 - Algorithmic reasoning
@@ -65,6 +65,6 @@ CoinCrawler serves as a compact demonstration of:
 - Clean, framework‑independent design
 
 
-## Authors
+### Authors
 Sanjana Akter Jemi
 

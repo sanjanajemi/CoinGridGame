@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="avanza.astrix.test.support.junit4" type="repository">
+    <properties maven-id="com.avanza.astrix:astrix-test-support-junit4:2.0.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/astrix-test-support-junit4-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/astrix-test-support-common-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/astrix-core-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/astrix-context-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/astrix-modules-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/astrix-versioning-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.13.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rxjava-1.3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reflections-0.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.28.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mimer-config-0.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
